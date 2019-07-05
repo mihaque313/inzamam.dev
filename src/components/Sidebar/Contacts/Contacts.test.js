@@ -11,7 +11,7 @@ describe('Contacts', () => {
       twitter: '#',
       github: '#',
       rss: '#',
-      telegram: '#'
+      linkedin: '#'
     }
   };
 

@@ -13,7 +13,7 @@ const useSiteMetadata = () => {
               photo
               contacts {
                 email
-                telegram
+                linkedin
                 twitter
                 github
                 rss

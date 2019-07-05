@@ -21,7 +21,7 @@ module.exports = {
     bio: 'Trying to pen my experiences with code, life and beyond!',
     contacts: {
       email: 'mihaque313@gmail.com',
-      telegram: '#',
+      linkedin: 'https://www.linkedin.com/in/inzamam313/',
       twitter: 'iAmInziee',
       github: 'mihaque313',
       rss: '#'

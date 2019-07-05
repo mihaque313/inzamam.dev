@@ -5,7 +5,7 @@ import { ICONS } from '../constants';
 test('getIcon', () => {
   expect(getIcon('twitter')).toBe(ICONS.TWITTER);
   expect(getIcon('github')).toBe(ICONS.GITHUB);
-  expect(getIcon('telegram')).toEqual(ICONS.TELEGRAM);
+  expect(getIcon('linkedin')).toEqual(ICONS.LINKEDIN);
   expect(getIcon('email')).toEqual(ICONS.EMAIL);
   expect(getIcon('rss')).toEqual(ICONS.RSS);
 });
