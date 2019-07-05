@@ -24,8 +24,7 @@ module.exports = {
       telegram: '#',
       twitter: 'iAmInziee',
       github: 'mihaque313',
-      rss: '#',
-      vkontakte: '#'
+      rss: '#'
     }
   }
 };
