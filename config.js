@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Not just another data enthusiast!',
+  title: 'Inzamamul Haque',
   subtitle: 'Trying to pen my experiences with code, life and beyond!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
