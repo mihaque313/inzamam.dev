@@ -29,8 +29,11 @@ module.exports = {
     bio: 'Trying to pen my experiences with codes. Not just another data enthusiast!',
     contacts: {
       email: 'mihaque313@gmail.com',
+      telegram: '#',
       twitter: 'https://twitter.com/iAmInziee',
-      github: 'https://github.com/mihaque313'
+      github: '#',
+      rss: '#',
+      vkontakte: '#'
     }
   }
 };
