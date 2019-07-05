@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Not just another data enthusiast!',
+  subtitle: 'Trying to pen my experiences with codes. Not just another data enthusiast!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -24,16 +24,13 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Inzamamul Haque',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Trying to pen my experiences with codes. Not just another data enthusiast!',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'mihaque313@gmail.com',
+      twitter: 'https://twitter.com/iAmInziee',
+      github: 'https://github.com/mihaque313'
     }
   }
 };

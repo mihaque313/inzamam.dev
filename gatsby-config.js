@@ -7,7 +7,7 @@ module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
     url: siteConfig.url,
-    title: "Inzamamul Haque",
+    title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
