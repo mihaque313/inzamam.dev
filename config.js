@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Not just another data enthusiast!',
-  subtitle: 'Trying to pen my experiences with codes. Not just another data enthusiast!',
+  subtitle: 'Trying to pen my experiences with code, life and beyond!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -18,12 +18,12 @@ module.exports = {
   author: {
     name: 'Inzamamul Haque',
     photo: '/photo.jpg',
-    bio: 'Trying to pen my experiences with codes. Not just another data enthusiast!',
+    bio: 'Trying to pen my experiences with code, life and beyond!',
     contacts: {
       email: 'mihaque313@gmail.com',
       telegram: '#',
       twitter: 'iAmInziee',
-      github: '#',
+      github: 'mihaque313',
       rss: '#',
       vkontakte: '#'
     }
