@@ -26,7 +26,7 @@ module.exports = {
     contacts: {
       email: 'mihaque313@gmail.com',
       linkedin: 'https://www.linkedin.com/in/inzamam313/',
-      twitter: 'iAmInziee',
+      twitter: 'inzamam_sahar',
       github: 'mihaque313',
       rss: '#',
       instagram: 'inzamam_sahar'
