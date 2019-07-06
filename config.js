@@ -13,7 +13,11 @@ module.exports = {
     {
       label: 'Articles',
       path: '/'
-    }
+    },
+    {
+      label: 'About me',
+      path: '/pages/about'
+    },
   ],
   author: {
     name: 'Inzamamul Haque',
