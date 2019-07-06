@@ -21,7 +21,7 @@ module.exports = {
   ],
   author: {
     name: 'Inzamamul Haque',
-    photo: '/photo.jpg',
+    photo: '/photo.png',
     bio: 'Trying to pen my experiences with code, life and beyond!',
     contacts: {
       email: 'mihaque313@gmail.com',
