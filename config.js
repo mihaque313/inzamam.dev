@@ -28,7 +28,8 @@ module.exports = {
       linkedin: 'https://www.linkedin.com/in/inzamam313/',
       twitter: 'iAmInziee',
       github: 'mihaque313',
-      rss: '#'
+      rss: '#',
+      instagram: 'inzamam_sahar'
     }
   }
 };

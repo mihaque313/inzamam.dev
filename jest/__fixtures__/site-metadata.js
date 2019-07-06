@@ -32,7 +32,8 @@ module.exports = {
           linkedin: '#',
           twitter: '#',
           github: '#',
-          rss: '#'
+          rss: '#',
+          instagram: '#'
         }
       }
     }
