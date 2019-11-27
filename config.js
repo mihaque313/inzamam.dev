@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Inzamamul Haque',
-  subtitle: 'Trying to pen my experiences with code, life and beyond!',
+  subtitle: 'Here to pen my experiments with code',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -22,7 +22,7 @@ module.exports = {
   author: {
     name: 'Inzamamul Haque',
     photo: '/photo.png',
-    bio: 'Trying to pen my experiences with code, life and beyond!',
+    bio: 'Here to pen my experiments with code',
     contacts: {
       email: 'mihaque313@gmail.com',
       linkedin: 'https://www.linkedin.com/in/inzamam313/',
