@@ -2,13 +2,13 @@
 template: page
 title: About me
 ---
-Hi, My name is Md Inzamamul Haque (Call me Inzy bdw :D). 
+Hi, My name is Md Inzamamul Haque (Call me Inzy bdw 😁). 
 
 
 
 Curious about the complexities of our world and our limited ability to comprehend them, I'm a computer science graduate working as software engineer at Relevance Lab, Bangalore in domain of Big data.
 
-I write programs in  Java, Python and Scala; and needless to say, being a data developer, SQL is ought to be spine :P.
+I write programs in  Java, Python and Scala; and needless to say, being a data developer, SQL is ought to be the spine 😅.
 
 Have been working in Hadoop ecosystem having good level of comfort in Sqoop, Impala, Hive, Oozie, Spark, Solr.
 
