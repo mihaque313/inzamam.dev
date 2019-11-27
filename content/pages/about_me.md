@@ -4,7 +4,7 @@ title: About_me
 slug: about_me
 draft: true
 ---
-Hi, My name is Md Inzamamul Haque (Call me Inzy bdw 😁). 
+Hi, My name is Md Inzamamul Haque (Call me Inzy bdw :D). 
 
 
 
