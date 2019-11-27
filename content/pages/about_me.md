@@ -2,7 +2,7 @@
 template: page
 title: about_me
 slug: about_me
-draft: true
+draft: false
 ---
 Hi, My name is Md Inzamamul Haque (Call me Inzy bdw :D). 
 
