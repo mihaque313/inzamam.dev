@@ -14,4 +14,4 @@ Have been working in Hadoop ecosystem having good level of comfort in Sqoop, Imp
 
 I have managed infrastructure and DevOps responsiblities across my various projects varying from managing [Cloudera cluster](https://www.cloudera.com/products/open-source/apache-hadoop.html),  writing [Chef ](https://learn.chef.io/)cookbooks, Creating CI/CD pipelines using Jenkins and Docker, creating ETL pipelines using [Apache Airflow](https://airflow.apache.org).
 
-In my free time I love to read books(mainly non-fiction), write Poems in Urdu and Hindi, participate social service activities.
+In my free time I love to read books(mainly non-fiction), write Poems in Urdu and Hindi, participate in social service activities.
