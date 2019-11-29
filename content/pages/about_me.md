@@ -4,7 +4,7 @@ title: About me
 slug: /pages/about_me
 draft: false
 ---
-Hi, My name is Md Inzamamul Haque (Call me Inzy bdw 😁). 
+Hi, My name is Md Inzamamul Haque (you can call me Inzy 😁). 
 
 Curious about the complexities of our world and our limited ability to comprehend them, I'm a computer science graduate working as software engineer in domain of Big data.
 
