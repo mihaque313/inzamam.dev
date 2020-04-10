@@ -2,7 +2,7 @@
 template: post
 title: Shell loops to process text files? Think again!
 slug: think-again-before-using-shell-loops-for-processing-text-files
-draft: true
+draft: false
 date: 2020-04-10T15:12:13.949Z
 description: >
   My take on why one should avoid using loops in shell scripts when dealing with
