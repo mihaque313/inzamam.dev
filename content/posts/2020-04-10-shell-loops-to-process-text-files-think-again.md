@@ -11,7 +11,11 @@ description: >-
   with programming languages.
 category: Shell Scripting
 tags:
-  - linux shell bash scripting file-processing
+  - linux
+  - shell
+  - bash
+  - scripting
+  - file-processing
 ---
 Holla folks! How's lockdown going on? 😁
 
