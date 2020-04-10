@@ -4,11 +4,9 @@ title: About me
 slug: /pages/about_me
 draft: false
 ---
-Hi, My name is Md Inzamamul Haque (you can call me Inzy 😁). 
+Hi, My name is Md Inzamamul Haque (you can call me Inzy 😁), a computer science graduate working as Big data engineer @ [Relevance Lab](https://www.linkedin.com/company/relevance-lab/)
 
-Curious about the complexities of our world and our limited ability to comprehend them, I'm a computer science graduate working as software engineer in domain of Big data.
-
-I write programs mainly in Java and Python, write cypher-queries for neo4j graphDB, regularly write bash scripts mainly for automation purposes, and sql is the constant buddy! 🤘
+I write programs mainly in Java and Python, write cypher-queries for neo4j graphDB, write bash scripts, and sql is the constant buddy! 🤘
 
 Have been working in Hadoop ecosystem having good level of comfort in Sqoop, Impala, Hive, Oozie. Have started writing basic Spark applications too. 
 
