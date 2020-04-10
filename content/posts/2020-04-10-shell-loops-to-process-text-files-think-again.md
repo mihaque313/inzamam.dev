@@ -101,13 +101,13 @@ Unix has many wonderful built in tools, ranging from the simple to the complex, 
 
 I'm giving you a simple example from a script I've written:
 
-`cat file.txt | grep -w "|" | grep -Ewo "[0-9]| sed '4q;d' | awk '{$1=$1};'`
+`cat file.txt | grep -w "|" | grep -Ewo "[0-9]" | sed '4q;d' | awk '{$1=$1};'`
 
 Here, 
 
 * I'm pushing contents of file.txt to pipe using `cat file.txt`
 * then selecting only lines containing '|' using `grep -w "|"`
-* selecting lines containing only digits by, `grep -Ewo "[0-9]`
+* selecting lines containing only digits by, `grep -Ewo "[0-9]"`
 * then just selecting the 4th line from the file using, `sed '4q;d'`
 * and in last, removing white-spaces by `awk '{$1=$1};'`
 
