@@ -21,32 +21,40 @@ Holla folks! How's lockdown going on? 😁
 
 I'm writing this as first entry to this what I think could live on to be called my blog. A lot of procrastination, a hell lot of ifs and buts on how should I start writing, and then yesterday I decided to write on it!
 
-I am not sure whether you have used shell scripts or are you write them regularly. In any case, just take this post as my opinion, not as set of hard-bound rules . 
+I am not sure whether you have used shell scripts or you write them regularly. In any case, just take this post as my opinion, not as set of hard-bound rules . 
 
 Lately, I have come across many scripts and people writing them for the purpose of processing text files, having things like this:
 
 ```
 while read row; do
 ```
+
 ```
    echo $row | cut -c3
 ```
+
 ```
 done
 ```
+
 or
+
 ```
 for row in `cat file`; do
 ```
+
 ```
    foo=`echo $row | awk '{print $2}'`
 ```
+
 ```
    echo blahblah $foo
 ```
+
 ```
 done
 ```
+
 Those are naive literal translations of what you would do in languages like C or python, but that's not how you do things in shells, and those examples are very inefficient, completely unreliable, and if you ever manage to fix most of the bugs, your code becomes illegible(I will explain this later.)
 
 **Conceptually,** in these languages, building blocks are just one level above machine instructions. You tell your processor what to do and then what to do next. You open that file, you read that many bytes, you do this, you do that with it.
@@ -62,12 +70,15 @@ When you do:
 ```
 while read row; do
 ```
+
 ```
    echo $row | cut -c3
 ```
+
 ```
 done
 ```
+
 It's like for each line of the file, getting the `read` tool from the drawer, read a line, wash your read tool, keep it back to the drawer. Then schedule a meeting for the `echo` and `cut`tool, get them from the drawer, invoke them, wash them, dry them, place them back in the drawer. This process  keeps repeating till the last line.
 
 You can just read the above para as: slicing an onion but washing your knife and putting it back to the drawer between each slice. But Here, the obvious better way is to get your cut tool from the drawer, slice your whole onion and put it back in the drawer after the whole job is done.
@@ -107,6 +118,5 @@ In case if you want to dig into some deeper details, I'm leaving with few good a
 * [Stéphane Chazelas answer on stackoverflow on: Understanding “IFS= read -r line”](https://unix.stackexchange.com/questions/209123/understanding-ifs-read-r-line/209184#209184)  
 * [Alternative solution to nested loops in shell programming](https://www.unix.com/homework-and-coursework-questions/261027-alternative-solution-nested-loops-shell-programming.html)  
 * [10 tips to improve Performance of Shell Scripts](www.theunixschool.com/2012/06/10-tips-to-improve-performance-of-shell.html)
-
 
 Tada!
