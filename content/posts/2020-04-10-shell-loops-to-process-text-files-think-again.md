@@ -6,9 +6,9 @@ draft: false
 date: 2020-04-10T15:12:13.949Z
 description: >-
   My take on why one should avoid using loops in shell scripts when dealing with
-  file processing. Have explained the disadvantages and inefficiencies behind
-  the scene. Then discussed few the alternatives of it,  and a comparison with
-  programming languages.
+  file processing. Have tried to explain the disadvantages and inefficiencies
+  behind the scene. Then discussed few of the alternatives, and a comparison
+  with programming languages.
 category: Shell Scripting
 tags:
   - linux shell bash scripting file-processing
