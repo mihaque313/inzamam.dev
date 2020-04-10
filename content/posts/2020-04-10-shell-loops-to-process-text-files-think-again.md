@@ -4,11 +4,11 @@ title: Shell loops to process text files? Think again!
 slug: think-again-before-using-shell-loops-for-processing-text-files
 draft: false
 date: 2020-04-10T15:12:13.949Z
-description: >
+description: >-
   My take on why one should avoid using loops in shell scripts when dealing with
-  file processing. Have explained the disadvantages and behind the scene
-  inefficiencies of it. Then discussed few the alternatives of it,  and a
-  comparison with programming langauges.
+  file processing. Have explained the disadvantages and inefficiencies behind
+  the scene. Then discussed few the alternatives of it,  and a comparison with
+  programming languages.
 category: Shell Scripting
 tags:
   - linux shell bash scripting file-processing
