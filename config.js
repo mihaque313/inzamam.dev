@@ -28,7 +28,7 @@ module.exports = {
       linkedin: 'https://www.linkedin.com/in/inzamam313/',
       twitter: 'inzamam_sahar',
       github: 'mihaque313',
-      rss: '#',
+      rss: 'https://inzamam.dev/rss.xml',
       instagram: 'inzamam_sahar'
     }
   }
