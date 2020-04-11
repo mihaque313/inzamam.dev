@@ -19,15 +19,6 @@ const Layout = ({ children, title, description }: Props) => (
       <meta property="og:site_name" content={title} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100765023-2"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-
-         gtag('config', 'UA-100765023-2');
-      </script>
-
     </Helmet>
     {children}
   </div>
