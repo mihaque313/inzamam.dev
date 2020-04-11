@@ -79,7 +79,7 @@ while read row; do
 done
 ```
 
-It's like for each line of the file, getting the `read` tool from the drawer, read a line, wash your read tool, keep it back to the drawer. Then schedule a meeting for the `echo` and `cut`tool, get them from the drawer, invoke them, wash them, dry them, place them back in the drawer. This process  keeps repeating till the last line.
+It's like for each line of the file, getting the `read` tool from the drawer, read a line, wash your read tool, keep it back to the drawer. Then schedule a meeting for the `echo` and `cut` tool, get them from the drawer, invoke them, wash them, dry them, place them back in the drawer. This process  keeps repeating till the last line.
 
 You can just read the above para as: slicing an onion but washing your knife and putting it back to the drawer between each slice. But Here, the obvious better way is to get your cut tool from the drawer, slice your whole onion and put it back in the drawer after the whole job is done.
 
