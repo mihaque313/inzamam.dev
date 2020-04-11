@@ -111,7 +111,7 @@ Here,
 * then just selecting the 4th line from the file using, `sed '4q;d'`
 * and in last, removing white-spaces by `awk '{$1=$1};'`
 
-But, my suggestion as a whole would be to avoid using shell to do what it's very good at and what it is nt intended for. 
+But, my suggestion as a whole would be to avoid using shell for doing what it's not very good at and what it is not intended for. 
 
 **Finally**, I would close this on note that Its all your call to decide what to use based on the situation and your requirements. And with a good old proverb of "_horses for courses",_ I would suggest that next time take a pause before thinking: '**I'm going to do this in shell'!**😄
 
