@@ -119,6 +119,6 @@ In case if you want to dig into some deeper details, I'm leaving with few good a
 
 * [Stéphane Chazelas answer on stackoverflow on: Understanding “IFS= read -r line”](https://unix.stackexchange.com/questions/209123/understanding-ifs-read-r-line/209184#209184)  
 * [Alternative solution to nested loops in shell programming](https://www.unix.com/homework-and-coursework-questions/261027-alternative-solution-nested-loops-shell-programming.html)  
-* [10 tips to improve Performance of Shell Scripts](www.theunixschool.com/2012/06/10-tips-to-improve-performance-of-shell.html)
+* [10 tips to improve Performance of Shell Scripts](https://www.theunixschool.com/2012/06/10-tips-to-improve-performance-of-shell.html)
 
 Tada!
