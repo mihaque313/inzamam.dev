@@ -1,0 +1,18 @@
+---
+template: post
+title: Optimize your Neo4j Cypher Queries like a pro
+slug: optimize-neo4j-cypher-queries-like-a-pro
+draft: true
+date: 2020-04-13T07:02:50.481Z
+description: >-
+  Explaining to adapt a few basic but important optimisations while dealing with
+  neo4j cypher queries.
+category: Neo4j
+tags:
+  - neo4j
+  - cypher-query
+  - graphDB
+---
+I have been working on Neo4j for quite some time. It has been a good learning experience and has given opportunity to explore more on graph databases along the way. In case you're not familiar with it, Neo4j is currently the leading candidate in the space of graph databases. 
+
+few months ago, I had to spent few hours trying to optimize about 5 complex Cypher queries that not performing good enough (query time ranged from 46786ms to 135759ms) on a QA server. After some trial and error, I had changed them all and brought down query run-time to 2367ms to 5755ms. At that time I understood why its very necessary to focus on query optimization from the very beginning of your development cycle. So writing this one in case if someone may get help.
