@@ -27,7 +27,9 @@ Both of them can be prefixed with your query to check the execution plan. Only d
 
 We can use it like this: 
 
-**`PROFILE`**`MATCH (child:Territory)-[rel:TERRITORY_TO_PARENT*]->(parent:Territory)`
+**`PROFILE`**` ``MATCH`
+
+`(child:Territory)-[rel:TERRITORY_TO_PARENT*]->(parent:Territory)`
 
 `return child,parent limit 500`
 
@@ -53,7 +55,11 @@ Remember that_, If you have set a constraint on any property of a node, there is
 
 I've been still unable to fully simplify few of the things which includes removal of optional paths. Like one of below format:
 
-`MATCH A-[o?:optional]-B WHERE (o is present, match B to C and D) OR (o is absent, match A to E and F)`
+`MATCH A-[o?:optional]-B `
+
+`WHERE (o is present, match B to C and D) `
+
+`OR (o is absent, match A to E and F)`
 
 I'll update this section later whenever I get a full-proof way to remove optional paths. If you have any suggestions on this, please help me out on twitter.
 
