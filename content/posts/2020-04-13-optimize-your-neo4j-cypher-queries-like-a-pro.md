@@ -14,9 +14,9 @@ tags:
   - graphDB
   - Optimisation
 ---
-I have been working on Neo4j for quite some time. It has been a good learning experience and has given opportunity to explore more on graph databases along the way. In case you're not familiar with it, Neo4j is currently the leading candidate in the space of graph databases. 
+I have been working on Neo4j for quite some time. It has been a good learning experience and has given opportunity to explore more on graph databases along the way. In case you're not familiar with it, Neo4j is currently the leading vendor in the space of graph databases. 
 
-few months ago, I had to spent few hours trying to optimize about 5 complex Cypher queries that not performing good enough (query time ranged from 46786ms to 135759ms) on a QA server. After some trial and error, I had changed them all and brought down query run-time to 2367ms to 5755ms. At that time I understood why its very necessary to focus on query optimization from the very beginning of your development cycle. So writing this one in case if someone may get help.
+Around a month ago, while helping on project of a friend, I had to spent few hours trying to optimize about 10 complex Cypher queries that not performing good enough (query time ranged from 46786ms to 135759ms) on a QA server. After some trial and error, I had changed them all and brought down query run-time to 2367ms to 5755ms. At that time I understood why its very necessary to focus on query optimization from the very beginning of your development cycle. So writing this one in case if someone may get help.
 
 **First** thing towards query optimization is to check execution plan of your query. Neo4j provides two keywords for it:
 
@@ -27,7 +27,7 @@ Both of them can be prefixed with your query to check the execution plan. Only d
 
 We can use it like this: 
 
-**`PROFILE`**` ``MATCH`
+**`PROFILE`**`MATCH`
 
 `(child:Territory)-[rel:TERRITORY_TO_PARENT*]->(parent:Territory)`
 
@@ -55,9 +55,9 @@ Remember that_, If you have set a constraint on any property of a node, there is
 
 I've been still unable to fully simplify few of the things which includes removal of optional paths. Like one of below format:
 
-`MATCH A-[o?:optional]-B `
+`MATCH A-[o?:optional]-B`
 
-`WHERE (o is present, match B to C and D) `
+`WHERE (o is present, match B to C and D)`
 
 `OR (o is absent, match A to E and F)`
 
@@ -72,7 +72,7 @@ One more suggestion from my side would be to use test/development data this is a
 For Summary:
 
 1. Try to check query plan with `EXPLAIN` and `PROFILE.`
-2. Analyse time taken not only during the execute() on the query, but also the time to iterate through the results.
+2. Analyze time taken not only during the execute() on the query, but also the time to iterate through the results.
 3. Index your most used properties.
 4. Parameterize your queries.
 5. Examine your MATCH and RETURN clauses. Include in the MATCH only those parts that are required in RETURN. The remaining which would be to filter the results can go into the WHERE.
