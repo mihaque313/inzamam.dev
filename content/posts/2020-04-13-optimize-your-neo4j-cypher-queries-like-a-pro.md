@@ -2,7 +2,7 @@
 template: post
 title: Optimize your Neo4j Cypher queries like a pro
 slug: optimize-neo4j-cypher-queries-like-a-pro
-draft: false
+draft: true
 date: 2020-04-13T07:02:50.481Z
 description: >-
   Explaining to adapt a few basic but important optimisations while dealing with
@@ -32,6 +32,6 @@ We can use it like this:
 
 ![Neo4j Profile Query](/media/profile_neo4j.png)
 
-**Second,** I started indexing the most frequently used properties of nodes of different labels. This improved the timings by good margin.  \*\*\*\*
+**Second,** I started indexing the most frequently used properties of nodes of different labels. This improved the timings by good margin.  
 
 ``
