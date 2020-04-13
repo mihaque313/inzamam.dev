@@ -2,7 +2,7 @@
 template: post
 title: Optimize your Neo4j Cypher queries like a pro
 slug: optimize-neo4j-cypher-queries-like-a-pro
-draft: true
+draft: false
 date: 2020-04-13T07:02:50.481Z
 description: >-
   Explaining to adapt a few basic but important optimisations  while dealing
