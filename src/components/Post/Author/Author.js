@@ -17,7 +17,7 @@ const Author = () => {
           rel="https://twitter.com//inzamam_sahar"
           target="https://twitter.com//inzamam_sahar"
         >
-        <strong>Connect with me @{author.contacts.twitter} on Twitter</strong>
+        <strong>Connect with me @{author.contacts.twitter}</strong>
         </a>
       </p>
     </div>
