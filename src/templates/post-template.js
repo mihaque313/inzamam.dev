@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
+import HyvorTalk from 'hyvor-talk-react';
 
 type Props = {
   data: MarkdownRemark
@@ -17,6 +18,7 @@ const PostTemplate = ({ data }: Props) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />
+	  <HyvorTalk.Embed websiteId={457} />
     </Layout>
   );
 };
