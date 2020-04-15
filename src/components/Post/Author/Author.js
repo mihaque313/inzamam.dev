@@ -14,10 +14,10 @@ const Author = () => {
         <a
           className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
-          rel="https://twitter.com/iAmInziee"
-          target="https://twitter.com/iAmInziee"
+          rel="https://twitter.com//inzamam_sahar""
+          target="https://twitter.com/inzamam_sahar"
         >
-          <strong>{author.name}</strong> on Twitter
+         Connect with me <strong>@{author.contacts.twitter}</strong> on Twitter
         </a>
       </p>
     </div>
