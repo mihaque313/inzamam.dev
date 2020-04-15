@@ -7,9 +7,7 @@
   A minimal, lightweight and mobile-first starter for creating blogs uses <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>.
 </h4>
 
-<p align="center">
 [![Netlify Status](https://api.netlify.com/api/v1/badges/976a9ddf-4713-4844-b864-2531c7f8ebbb/deploy-status)](https://app.netlify.com/sites/inzamam/deploys)
-</p>
 
 ## Table of contents
 + [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
