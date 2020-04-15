@@ -68,6 +68,7 @@
     "gatsby-source-filesystem": "^2.1.1",
     "gatsby-transformer-remark": "^2.5.0",
     "gatsby-transformer-sharp": "^2.2.0",
+    "hyvor-talk-react": "^1.0.1",
     "invariant": "^2.2.4",
     "katex": "^0.10.2",
     "lodash": "^4.17.11",
