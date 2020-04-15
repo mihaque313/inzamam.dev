@@ -18,7 +18,7 @@ const PostTemplate = ({ data }: Props) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />
-	  <HyvorTalk.Embed websiteId={457} loadMode="scroll" />
+	  <HyvorTalk.Embed websiteId={457} loadMode="scroll" style={{margin: 'auto', maxWidth: '40rem'}}/>
     </Layout>
   );
 };
