@@ -29,7 +29,7 @@ module.exports = {
       twitter: 'inzamam_sahar',
       github: 'mihaque313',
       rss: 'https://inzamam.dev/rss.xml',
-      instagram: 'inzamam_sahar'
+      instagram: '#'
     }
   }
 };
