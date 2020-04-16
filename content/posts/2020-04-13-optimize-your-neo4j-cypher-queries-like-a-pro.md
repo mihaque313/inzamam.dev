@@ -3,7 +3,7 @@ template: post
 title: Optimization essentials for your Neo4j Cypher queries
 slug: optimization-essentials-for-your-neo4j-cypher-queries
 draft: false
-date: 2020-04-14T07:02:50.481Z
+date: 2020-04-16T07:02:50.481Z
 description: >-
   Explaining adaptations of a few basic but important optimisations while
   dealing with Neo4j Cypher queries to improve performance.
