@@ -14,11 +14,9 @@ tags:
   - docker
   - linux
 ---
-All those working on neo4j might be aware of the fact that on instance of neo4j server can mount only one database at a time. Many a times we come across situations where we have to setup more than one neo4j database, and for that purpose we have to bring up separate neo4j server instance for each database we need, which involves doing a hell lot of manual steps to download installation tarballs, pushing it to different locations on machine, changing ports in configs files, etc. Here, in situation like this docker comes quit handy.  
+All those working on neo4j might be aware of the fact that on an instance of neo4j server can mount only one database at a time. Many a time we come across situations where we have to set up more than one neo4j database, and for that purpose, we have to bring up separate neo4j server instance for each database we need, which involves doing a hell lot of manual steps to download installation tarballs, pushing it to different locations on the machine, changing ports in configs files, etc. Here, in a situation like this docker comes quite handy.
 
-The key to using more than one neo4j servers simultaneously is to use different ports for http, https and bolt connections which is quite easy to do with the docker image. For my purpose, I configured neo4j in such a way that it can access the database from a non-default location. 
-
-As using docker is invloved here, I'm assuming you already have docker installed on your linux machine. So, lets get our hands dirty. 
+The key to using more than one neo4j servers simultaneously is to use different ports for http, https and bolt connections which is quite easy to do with the docker image. For my purpose, I configured neo4j in such a way that it can access the database from a non-default location. As using docker is involved here, I’m assuming you already have docker installed on your Linux machine. Let's get our hands dirty.
 
 We'll follow these steps:
 
