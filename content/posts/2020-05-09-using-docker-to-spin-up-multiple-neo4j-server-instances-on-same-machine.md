@@ -91,8 +91,8 @@ http://<hostname-of-machine>:7475 (or the port that you have used for forwarding
 
 It should display a page like the one below:
 
+![](/media/neo4j1.png)
 
+Change the bolt port to 7688 (or the port that you have used for forwarding in step 2), use user/password as neo4j/neo4j and click connect. Set new password in next screen.
 
-
-
-``
+It should connect you to your default graph.db database which should look something like below.
