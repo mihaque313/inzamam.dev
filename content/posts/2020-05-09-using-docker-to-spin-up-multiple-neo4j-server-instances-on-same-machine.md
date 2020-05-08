@@ -67,7 +67,9 @@ Let's break-down the above command.
 3. `--name=neo4j-instance-1` to give the desired name to the docker instance otherwise docker will choose a random name which might not be very easy to remember if we want to refer to this session in future for some reason.
 4. `-–rm` is to delete the docker instance from the list upon session termination. This is useful if we want to reuse the same name.
 5. `-–publish=7475:7474 -–publish=7476:7473 -–publish=7688:7687` to publish/forward the default http, https and bolt ports to the desired ports. In this case, the http, https and bolt ports will be forwarded to the desired 7475, 7476 and 7687 respectively.
-6. `--volume=$HOME/neo4j-instance-1/data:/data --volume=$HOME/neo4j-instance-1/import:/import --volume=$HOME/neo4j-instance-1/conf:/conf` to mount the desired locations for the database creation or access.
+6. `--volume=$HOME/neo4j-instance-1/data:/data \`\
+   `--volume=$HOME/neo4j-instance-1/import:/import \`\
+   `--volume=$HOME/neo4j-instance-1/conf:/conf` to mount the desired locations for the database creation or access.
 
 **Note**: If you are running this command for the first time, it will create the folders mentioned in –volume tag. Otherwise, it will mount the existing folders to the neo4j docker defaults.
 
@@ -79,7 +81,7 @@ To check the current running docker session run `docker ps`, whis should give yo
 
 `CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES`
 
-`1afa157d9caa neo4j "/sbin/tini -g -- ..." 36 minutes ago Up 36 minutes 7473/tcp, 0.0.0.0:7475->7474/tcp, 0.0.0.0:7688->7687/tcp neo4j-instance-1`
+`1afa157d9caa neo4j "/sbin... 7473/tcp,... 87/tcp neo4j-instance-1`
 
 To terminate this session: `docker kill neo4j-instance-1`
 
