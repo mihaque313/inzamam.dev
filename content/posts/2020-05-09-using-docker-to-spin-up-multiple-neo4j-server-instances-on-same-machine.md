@@ -2,7 +2,7 @@
 template: post
 title: Using Docker to spin-up multiple neo4j server instances on same machine
 slug: docker-for-multiple-neo4j-server-instances-on-same-machine
-draft: true
+draft: false
 date: 2020-05-08T19:30:26.880Z
 description: >-
   Discussing how to use Docker to spin-up multiple neo4j server instances on
