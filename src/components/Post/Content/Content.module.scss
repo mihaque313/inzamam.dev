@@ -73,6 +73,7 @@
 
     &__body {
       font-size: $typographic-base-font-size * 1.125;
+	  text-align: justify !important;
       @include line-height(1.125);
       @include margin-bottom(1.125);
 
