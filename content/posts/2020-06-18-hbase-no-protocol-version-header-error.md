@@ -32,6 +32,8 @@ It was checked. In /etc/hbase/conf/hbase-sit.xml, It's value was '_true'_
 
 I found a link: [_https://github.com/wbolster/happybase/issues/161_](https://github.com/wbolster/happybase/issues/161)
 
+![](/media/thrift_hbase__ss.png)
+
 So, I unchecked it. ( In hbase-sit.xml, it becomes 'false' )
 
 Then restarted Hbase service, and problem got solved
