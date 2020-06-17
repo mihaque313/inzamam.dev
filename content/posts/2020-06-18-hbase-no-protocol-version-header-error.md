@@ -5,7 +5,7 @@ slug: hbase-No-protocol-version-header-error
 draft: false
 date: 2020-06-17T19:51:09.309Z
 description: hbase-No-protocol-version-header-error
-category: configs
+category: hbase
 tags:
   - Cloudera
   - HBase
